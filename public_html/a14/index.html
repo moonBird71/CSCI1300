@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!--
+
+Name    : Sonia Liu
+Class   : CIST 1300 - 004
+Assign# : a14
+Due     : December 3
+
+Honor Pledge:  On my honor as a student of the University
+of Nebraska at Omaha, I have neither given nor received
+unauthorized help on this homework assignment.
+
+NAME: Sonia Liu
+EMAIL: sonialiu@unomaha.edu
+
+Partners:  NONE
+
+The html form page for sending an email
+
+
+-->  
+
+<html lang="en">
+
+    <head>
+        <title>email form</title>
+        <meta charset="utf-8" />
+
+    </head>
+
+    <body>
+	<!--Will need title at top, and instructions.  Even if it seems self-	explanatory
+	Use h1, p
+	
+	Will need input text boxes: from address, to address, topic, message 	field. Style it?
+	Use form: action, method (get?/post?); textarea for message; required? 	need some way of generating error messages
+	-->
+	<h1>e-mail form</h1>
+	<p>Fill out the form to send an e-mail 
+	</p>
+	<form action="email.cgi" method="post">
+	Enter your e-mail address: <input type="email" name="from"> 
+	<br>
+	Enter the recipient's e-mail address: <input type="email" name="to">
+	<br>
+	Enter the topic of the e-mail: <input type="text" name="topic">
+	<br>
+	Enter the message you wish to send: 
+	<br><br>
+	<textarea name="message" rows="20" cols="20"></textarea>
+
+	<!--Put a Sumbit and Reset button at the bottom.  Style it maybe?
+	-->
+	<br><br>
+	<input type="submit" name="submit" value="Submit Form">
+	<input type="reset" value="Reset Form">
+	</form>
+
+        <div id="validator">
+            <p>
+            <a href="http://validator.w3.org/check?uri=referer">
+                <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3.png"
+                width="66" height="44" alt="HTML 5 Validator" title="HTML5 Validator">
+            </a>
+            </p>
+
+            <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                src="http://www.w3.org/Style/CSS/Buttons/csstm" alt="Valid CSS!" />
+            </a>
+            </p>
+
+        </div>
+
+
+    </body>
+

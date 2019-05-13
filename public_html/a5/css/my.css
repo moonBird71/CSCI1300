@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/*
+
+Name: Sonia Liu
+Class: CIST 1300-004
+Assign#: a5
+Due: October 1
+
+Honor Pledge: On my honor as a student of the University of Nebraska at Omaha, I have neither given nor recieved unauthorized help on this homework assignment.
+
+NAME: Sonia Liu
+EMAIL: sonialiu@unomaha.edu
+
+Partners: None
+
+*/
+
+/* Sets font-weight to bold for <span> tags that use the bold class */
+.bold {
+    font-weight: bold; 
+}
+
+/* Sets the font-style to italic for <span> tags that use the italics class*/
+.italics {
+    font-style: italic;
+}
+
+/* Change h1 font to dark blue, right-aligned, and in small caps */
+h1 {
+    font-variant: small-caps;
+    color: #00008B;
+    text-align: right;
+}
+
+/* Make thin, dashed, dark blue borders. A light gray background. And set the dimensions */
+div {
+    border-width: thin;
+    border-style: dashed;
+    border-color: #00008B;
+    background: #eeeeee;
+    width: 650px;
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Change font in paragraphs to either Arial or sans-serif */
+p {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Puts space around pictures, sets a maximum height, and places them at the left of the screen */
+img {
+    border: 0px;
+    padding: 15px;
+    max-height: 300px;
+    float: left;
+}
+
+/* Change font in quotes to either Arial or sans-serif */
+blockquote {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Change font in links to either Arial or sans-serif and be colored brick red */
+a {
+    font-family: 'Arial', sans-serif;
+    color: #8B0000;
+    text-decoration: none;
+}
+
+/* Make the text in the links bold */
+a:link {
+    font-weight: bold;
+}
+
+/* When the mouse hovers over a link, the colors invert*/
+a:hover {
+    background: #8B0000;
+    color: #eeeeee;
+}
+
+/* Sets Table's width, border spacing, and background color*/
+#daily {
+    width: 600px;
+    border-spacing: 1px;
+    background: #191970;
+}
+
+/**/
+table {
+
+}
+
+/* Text in table rows are centered and the background is changed to dark grey */
+tr {
+    text-align: center;
+    background-color: #d3d3d3;
+}
+
+/* When the mouse hovers over a table row, the background and text change color */
+tr:hover {
+    background: #121312;
+    color: #ffffff;
+}
+
+/* Sets the width of the boxes in the table */
+td {
+    width: 100px;
+}
+
+/* When the mouse hovers over a box in the table, the background and text change color */
+td:hover {
+    background: red;
+    color: #ffffff;
+}
+
+/* Sets the width of the table headers */
+th {
+    width: 100px;
+}
+
+/* When the mouse hovers over a table header, the background and text change color */
+th:hover {
+    background: red;
+    color: #ffffff;
+}
+
+/* Table boxes that contain class time are given a blue background */
+.course {
+    background-color: blue;
+    color: #ffffff;
+}
+
+/* Table boxes that contain work time are given a grey background */
+.work {
+    background: #dcdcdc;
+}
+
+/* Table boxes that contain time for other scheduled activities are given a pink background */
+.other {
+    background: #ffcccc;
+
+}
+
+/* Changes text in heading size 2 to small caps font and the color dark blue */
+h2 {
+    font-variant: small-caps;
+    color: #00008B;
+}
+
+/* Changes text in heading size 3 to small caps font and to the color dark blue */
+h3 {
+    font-variant: small-caps;
+    color: #00008B;
+}
+
+/* Changes text in heading size 4 to small caps font and to the color dark blue */
+h4 {
+    font-variant: small-caps;
+    color: #00008B;
+}
+
+/* Changes text in heading size 5 to small caps font and to the color dark blue */
+h5 {
+    font-variant: small-caps;
+    color: #00008B;
+}
+
+/* Places audio at the right */
+audio {
+	float: right;
+}
