@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/*
+Name: Sonia Liu
+Class: CIST 1300-004
+Assign#: a9
+Due: October 29
+
+Honor Pledge: On my honor as a student of the University of Nebraska at Omaha, I have neither given nor recieved unauthorized help on this homework assignment.
+
+NAME: Sonia Liu
+EMAIL: sonialiu@unomaha.edu
+
+Partners: None
+
+*/
+
+/* Make navbar */
+/* Figure out how to space out buttons and make it fit screen */
+#nav {
+	width: 200px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	padding: 0px;
+	background-color: #87ceeb;
+	border-right: 2px solid #191970;
+	overflow: scroll;
+}
+/* Make buttons in navbar */
+.button {
+	display: block;
+	width: 130px;
+	height: 50px;
+	color: #00008B;
+	background: #eeeeee;
+	font-variant: small-caps;
+	padding: 4px 12px 4px 12px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+}
+.button:hover {
+	color: #eeeeee;
+	background: #00008B;
+}
+
+/*Other button styling?*/
+
+
+/* Main content styling */
+#main {
+	margin-left: 220px;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+/* Print special terms (both main and navbar) in color */
+/* Need different colors for different subject relations */
+/* Possible to add if-then statements for different subjects/genres? */
+.term {
+	
+}
+p {
+	border-width: thin;
+	border-style: dashed;
+	border-color: #00008B;
+	background: #eeeeee;
+	width: 650px;
+	margin: 20px;
+	padding: 15px;
+}
+h1 {
+	border-width: thin;
+	border-style: dashed;
+	border-color: #00008B;
+	background: #eeeeee;
+	width: 650px;
+	margin: 20px;
+	padding: 15px;
+
+}
+/* List came from w3school */
+ul {
+	list-style-type: none;
+	border-width: thin;
+	border-style: dashed;
+	border-color: #00008B;
+	background: #eeeeee;
+	width: 650px;
+	margin: 20px;
+	padding: 15px;
+}
+li {
+	
+}
+/* Maybe a cyber theme for the background */
+

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*
+Name: Sonia Liu
+Class: CIST 1300-004
+Assign#: a7
+Due: October 8
+
+Honor Pledge: On my honor as a student of the University of Nebraska at Omaha, I have neither given nor recieved unauthorized help on this homework assignment.
+
+NAME: Sonia Liu
+EMAIL: sonialiu@unomaha.edu
+
+Partners: None
+
+*/
+
+/* Make navbar */
+#nav {
+	width: 200px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	padding: 0px;
+	background-color: #87ceeb;
+	border-right: 2px solid #191970;
+	overflow: scroll;
+}
+
+/* Button styling */
+.button {
+	width: 130px;
+	height: 50px;
+	color: #00008B;
+	background: #eeeeee;
+	font-variant: small-caps;
+	padding: 2px 6px 2px 6px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+}
+
+/* Main content styling */
+#main {
+	margin-left: 220px;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+/* Image */
+.pic {
+	width: 90px;
+	height: 100px;
+	font-size: 2em;
+}
